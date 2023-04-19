@@ -1,0 +1,45 @@
+table.layout {
+  border-collapse: collapse;
+  border-style: none;
+  margin: 0;
+}
+table.layout td {
+  border-style: none;
+  padding: 0;
+}
+
+table.layout-space {
+  border-collapse: collapse;
+  border-style: none;
+  margin: 0;
+}
+table.layout-space td {
+  border-style: none;
+  padding: 4px;
+}
+
+table.simple {
+  border-collapse: collapse;
+  border-style: none;
+  margin: 0;
+}
+table.simple th,
+table.simple td {
+  border-style: solid;
+  border-width: 1px;
+  padding: 0 4px;
+}
+
+table.data th,
+table.data td {
+  padding: 4px 8px;
+}
+
+table.dense th,
+table.dense td {
+  padding: 0 4px;
+}
+
+td.nb {
+  border-color: transparent;
+}

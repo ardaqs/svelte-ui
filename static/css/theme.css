@@ -1,0 +1,65 @@
+html, body {
+  background-color: white;
+  color: black;
+}
+div.header {
+  background-color: blue;
+  color: white;
+}
+div.progress {
+  background-color: blue;
+}
+footer {
+  background-color: dimgray;
+}
+footer section.copyright > * {
+  color: silver;
+}
+
+h1, h2, h3, h4 {
+  color: black;
+}
+p {
+  color: #404040;
+}
+
+a {
+  color: blue;
+}
+a:visited {
+  color: purple;
+}
+
+a.cmd {
+  color: blue;
+}
+a.cmd:hover {
+  color: orange;
+}
+a.cmd:active {
+  color: red;
+}
+
+.dim {
+  color: gainsboro;
+}
+hr.dim {
+  color: gainsboro;
+  background-color: gainsboro;
+}
+
+table.simple th,
+table.simple td {
+  border-color: gainsboro;
+}
+table.simple th {
+  background-color: whitesmoke;
+}
+
+table.data th,
+table.data td {
+  border-color: gainsboro;
+}
+table.data th {
+  background-color: whitesmoke;
+}
