@@ -1,1 +1,1 @@
-<h1>@ardaqs/svelte-ui</h1>
+<p style="margin: 1em; color: gray;">Redirecting...</p>
