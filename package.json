@@ -1,6 +1,6 @@
 {
 	"name": "@ardaqs/svelte-ui",
-	"version": "0.0.3",
+	"version": "0.0.7",
 	"description": "Svelte UI component library",
 	"author": "Ardak Saduakassov",
 	"license": "MIT",

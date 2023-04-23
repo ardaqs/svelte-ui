@@ -1,8 +1,11 @@
 <script lang="ts">
+  import { base } from '$app/paths';
   import { page } from '$app/stores';
   import { goto } from '$app/navigation';
   
-  import { languages } from '$lib/i18n';
+  import { languages as defaultLanguages } from '$lib/i18n';
+
+  export let languages = defaultLanguages;
 
   $: lang = $page.params.lang;
 
@@ -10,11 +13,11 @@
     const path = $page.url.pathname;
     // console.log(`Curr path: ${path}`);
 
-    const langRegExp = new RegExp(`^/${lang}($|/)`); // example: /^\/en($|\/)/
+    const langRegExp = new RegExp(`^${base}/${lang}($|/)`);
 
     const newPath = path.replace(langRegExp, (match) => {
       // console.log(`Match: ${match}`);
-      let newValue = `/${newLang}`;
+      let newValue = `${base}/${newLang}`;
       if (match.endsWith('/')) {
         newValue += '/';
       }
