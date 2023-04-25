@@ -3,7 +3,7 @@
   import { page } from '$app/stores';
   import { goto } from '$app/navigation';
   
-  import { languages as defaultLanguages } from '$lib/i18n';
+  import { languages as defaultLanguages } from '$lib/i18n/language';
 
   export let languages = defaultLanguages;
 

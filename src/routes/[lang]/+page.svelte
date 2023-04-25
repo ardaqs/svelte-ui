@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { Language } from '$lib/i18n';
+  import type { Language } from '$lib/i18n/language';
   import LanguageSwitcher from '$lib/layout/LanguageSwitcher.svelte';
 
   const supportedLanguages: Language[] = [

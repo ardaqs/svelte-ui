@@ -1,0 +1,21 @@
+{
+  "app": {
+    "title": "OYn",
+    "subtitle": "Math functions"
+  },
+  "cmd": {
+    "install": "Install"
+  },
+  "nav": {
+    "about": "About",
+    "back": "Back",
+    "home": "Home"
+  },
+  "error": "Error",
+  "test": "Test",
+  "tooltip": {
+    "language": "Language"
+  },
+  "message": {},
+  "text": {}
+}
